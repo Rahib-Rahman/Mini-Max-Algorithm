@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+ * @author Sheikh Md. Rahibur Rahman
+*/
+
 int minimax(int depth, int nodeIndex, bool isMax, int arr[], int h)
 {
     if (depth == h) return arr[nodeIndex];
